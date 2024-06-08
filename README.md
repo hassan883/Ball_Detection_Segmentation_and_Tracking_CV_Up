@@ -1,7 +1,5 @@
 # Ball_Detection_Segmentation_and_Tracking_CV_Up
 
-# [Repository Title]
-
 This repository contains implementations of various computer vision techniques focusing on ball detection, segmentation, feature extraction, and tracking. These tasks are essential components in applications such as sports analytics, interactive games, and robotic vision systems.
 
 ## Overview
@@ -23,17 +21,18 @@ The repository is divided into several key sections:
 ### Task 1: Image Segmentation and Detection
 Automated segmentation using Gaussian blurring, edge detection, and contour extraction. 
 
-![Segmentation Output](link-to-image)
+![Ground Truth Output](https://github.com/hassan883/Ball_Detection_Segmentation_and_Tracking_CV_Up/blob/main/frame-54.png)
+![Segmentation Output](https://github.com/hassan883/Ball_Detection_Segmentation_and_Tracking_CV_Up/blob/main/frame-54_GT.png)
 
 ### Task 2: Feature Calculation
 Calculation and visualization of shape and texture features for different ball types.
 
-![Feature Visualization](link-to-image)
+![Feature Visualization](https://github.com/hassan883/Ball_Detection_Segmentation_and_Tracking_CV_Up/blob/main/Picture1.png)
 
 ### Task 3: Object Tracking
 Using a Kalman filter for tracking the trajectory of a moving ball.
 
-![Tracking Visualization](link-to-image)
+![Tracking Visualization](https://github.com/hassan883/Ball_Detection_Segmentation_and_Tracking_CV_Up/blob/main/frame-54_masked.png)
 
 ## Results
 The repository includes evaluation metrics such as Dice Similarity Score for segmentation accuracy and RMSE for tracking precision.
